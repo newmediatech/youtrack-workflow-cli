@@ -79,6 +79,7 @@ module.exports.run = function () {
                     || directory === 'src'
                     || directory === 'src'
                     || directory === '.idea'
+                    || directory === '.git'
                     || directory === '@jetbrains'
                 );
             }).concat(
