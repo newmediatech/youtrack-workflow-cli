@@ -1,0 +1,25 @@
+{
+  "name": "mediatech-youtrack-workflow-cli",
+  "version": "0.1.1",
+  "main": "src/cli/index.js",
+  "description": "Youtrack workflow cli. May download and upload all workflows.",
+  "bin": {
+    "youtrack-workflow-cli": "bin/youtrack-workflow-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newmediatech/youtrack-workflow-cli"
+  },
+  "author": "Ilia Rogozhin",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@jetbrains/youtrack-scripting": "^0.0.22",
+    "commander": "^2.19.0",
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "bin": "./bin/youtrack-workflow-cli"
+  }
+}
