@@ -1,6 +1,6 @@
 {
   "name": "mediatech-youtrack-workflow-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "src/cli/index.js",
   "description": "Youtrack workflow cli. May download and upload all workflows.",
   "bin": {
